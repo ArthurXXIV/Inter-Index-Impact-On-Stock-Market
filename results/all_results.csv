@@ -1,0 +1,71 @@
+Task,Target,Inputs,Model,RMSE,R2_OOS,Direction_Acc,DM_p,N_train,N_test
+same_week,US,UK + Japan + India,Zero,2.1169,-0.0198,,0.7658,278,93
+same_week,US,UK + Japan + India,Mean,2.0962,0.0,0.5591,,278,93
+same_week,US,UK + Japan + India,Ridge,1.747,0.3055,0.7204,0.0223,278,93
+same_week,US,UK + Japan + India,LSTM,1.7943,0.2673,0.7204,0.0379,278,93
+same_week,US,UK + Japan + India,GRU,1.7283,0.3202,0.7527,0.0274,278,93
+same_week,UK,US + Japan + India,Zero,1.731,-0.0136,,0.9729,278,93
+same_week,UK,US + Japan + India,Mean,1.7193,0.0,0.6452,,278,93
+same_week,UK,US + Japan + India,Ridge,1.6763,0.0494,0.5376,0.4158,278,93
+same_week,UK,US + Japan + India,LSTM,1.6711,0.0553,0.4194,0.3757,278,93
+same_week,UK,US + Japan + India,GRU,1.6652,0.0619,0.4516,0.3495,278,93
+same_week,Japan,US + UK + India,Zero,3.0044,-0.0272,,0.9403,278,93
+same_week,Japan,US + UK + India,Mean,2.9643,0.0,0.5806,,278,93
+same_week,Japan,US + UK + India,Ridge,2.6256,0.2155,0.6344,0.0167,278,93
+same_week,Japan,US + UK + India,LSTM,2.7584,0.1341,0.6129,0.0423,278,93
+same_week,Japan,US + UK + India,GRU,2.6612,0.1941,0.6237,0.0133,278,93
+same_week,India,US + UK + Japan,Zero,1.7906,0.0339,,0.1521,278,93
+same_week,India,US + UK + Japan,Mean,1.8217,0.0,0.4624,,278,93
+same_week,India,US + UK + Japan,Ridge,1.8296,-0.0087,0.5806,0.5333,278,93
+same_week,India,US + UK + Japan,LSTM,1.7311,0.097,0.5484,0.1588,278,93
+same_week,India,US + UK + Japan,GRU,1.7409,0.0868,0.5699,0.1852,278,93
+same_week,India,US,Ridge,1.9401,-0.1343,0.5054,0.8622,278,93
+same_week,India,US,LSTM,1.9055,-0.0941,0.5269,0.7405,278,93
+same_week,India,US,GRU,1.9296,-0.122,0.5269,0.8024,278,93
+same_week,India,UK,Ridge,1.7282,0.1,0.5591,0.1493,278,93
+same_week,India,UK,LSTM,1.7296,0.0985,0.5376,0.1166,278,93
+same_week,India,UK,GRU,1.7292,0.099,0.5269,0.1364,278,93
+same_week,India,Japan,Ridge,2.0542,-0.2716,0.5054,0.9923,278,93
+same_week,India,Japan,LSTM,1.8029,0.0205,0.5484,0.4097,278,93
+same_week,India,Japan,GRU,1.874,-0.0583,0.5806,0.6772,278,93
+same_week,India,US + UK,Ridge,1.8215,0.0002,0.6129,0.499,278,93
+same_week,India,US + UK,LSTM,1.7662,0.06,0.5484,0.274,278,93
+same_week,India,US + UK,GRU,1.7723,0.0535,0.5699,0.2999,278,93
+same_week,India,US + Japan,Ridge,1.9688,-0.1681,0.5161,0.9173,278,93
+same_week,India,US + Japan,LSTM,1.8355,-0.0152,0.5269,0.5523,278,93
+same_week,India,US + Japan,GRU,1.8768,-0.0614,0.5376,0.6784,278,93
+same_week,India,UK + Japan,Ridge,1.845,-0.0258,0.5161,0.5894,278,93
+same_week,India,UK + Japan,LSTM,1.6971,0.1321,0.5914,0.0579,278,93
+same_week,India,UK + Japan,GRU,1.7312,0.0968,0.5699,0.1417,278,93
+next_week,US,US,Ridge,2.0852,0.0105,0.5591,0.1407,277,93
+next_week,US,US,LSTM,2.0333,0.0592,0.5699,0.0368,277,93
+next_week,US,US,GRU,2.0809,0.0146,0.5591,0.2932,277,93
+next_week,US,US + UK + Japan + India,Zero,2.1169,-0.0198,,0.7675,277,93
+next_week,US,US + UK + Japan + India,Mean,2.0963,0.0,0.5591,,277,93
+next_week,US,US + UK + Japan + India,Ridge,2.0735,0.0216,0.5591,0.0557,277,93
+next_week,US,US + UK + Japan + India,LSTM,2.1021,-0.0056,0.4946,0.5323,277,93
+next_week,US,US + UK + Japan + India,GRU,2.1067,-0.01,0.5376,0.6136,277,93
+next_week,UK,UK,Ridge,1.7205,-0.0008,0.4624,0.527,277,93
+next_week,UK,UK,LSTM,1.7144,0.0064,0.4086,0.3522,277,93
+next_week,UK,UK,GRU,1.71,0.0114,0.4409,0.3095,277,93
+next_week,UK,US + UK + Japan + India,Zero,1.731,-0.0129,,0.9737,277,93
+next_week,UK,US + UK + Japan + India,Mean,1.7199,0.0,0.6452,,277,93
+next_week,UK,US + UK + Japan + India,Ridge,1.7251,-0.0061,0.4409,0.6577,277,93
+next_week,UK,US + UK + Japan + India,LSTM,1.7821,-0.0736,0.3871,0.9671,277,93
+next_week,UK,US + UK + Japan + India,GRU,1.7268,-0.0081,0.4731,0.6301,277,93
+next_week,Japan,Japan,Ridge,2.9724,-0.0046,0.5806,0.7119,277,93
+next_week,Japan,Japan,LSTM,2.9831,-0.0118,0.5269,0.6993,277,93
+next_week,Japan,Japan,GRU,2.9894,-0.0161,0.5054,0.7634,277,93
+next_week,Japan,US + UK + Japan + India,Zero,3.0044,-0.0263,,0.9429,277,93
+next_week,Japan,US + UK + Japan + India,Mean,2.9656,0.0,0.5806,,277,93
+next_week,Japan,US + UK + Japan + India,Ridge,2.9808,-0.0102,0.5699,0.7627,277,93
+next_week,Japan,US + UK + Japan + India,LSTM,3.0811,-0.0794,0.4839,0.9613,277,93
+next_week,Japan,US + UK + Japan + India,GRU,3.1952,-0.1608,0.3656,0.9938,277,93
+next_week,India,India,Ridge,1.823,-0.0021,0.4624,0.7615,277,93
+next_week,India,India,LSTM,1.7982,0.025,0.5484,0.324,277,93
+next_week,India,India,GRU,1.8069,0.0156,0.5161,0.4006,277,93
+next_week,India,US + UK + Japan + India,Zero,1.7906,0.0333,,0.1543,277,93
+next_week,India,US + UK + Japan + India,Mean,1.8211,0.0,0.4624,,277,93
+next_week,India,US + UK + Japan + India,Ridge,1.8205,0.0007,0.4624,0.4849,277,93
+next_week,India,US + UK + Japan + India,LSTM,1.8811,-0.067,0.5376,0.7892,277,93
+next_week,India,US + UK + Japan + India,GRU,2.0726,-0.2953,0.5376,0.9301,277,93
